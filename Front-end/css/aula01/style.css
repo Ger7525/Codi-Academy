@@ -1,0 +1,24 @@
+
+
+html{
+    max-width: 1100px;                
+}
+h1{
+   color: blue;
+   background: greenyellow;
+   border: 5px solid black; 
+   padding: 25px 0; 
+   margin-top: 0;
+   margin-bottom: 0;
+   text-align: center;               
+}
+p{
+   color: greenyellow;
+   background: blue;
+   border:  1px solid black; 
+   font-size: 25px;   
+   text-align: justify; 
+   padding: 25px 0;
+   margin-top: 0;
+   margin-bottom: 0;            
+}

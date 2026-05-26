@@ -1,0 +1,12 @@
+#alinhamento{
+           background: green;
+           width: 200px;
+           height: 200px;
+           text-align: center; 
+           font-size: 12px;
+           display: flex;
+           align-items: center;
+           margin: 20px auto 20px auto;
+           padding: 20px;
+
+}
