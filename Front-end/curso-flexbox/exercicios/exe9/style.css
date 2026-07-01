@@ -4,39 +4,30 @@
     margin: 10px auto 30px;
     max-width: 500px;
     font-family: sans-serif;
-    justify-content: center;
+    flex-wrap; wrap;
 }
-
-.stretch{
-    align-items:stretch                
+.grow_0 {
+    flex-grow: 0;
 }
-.flex-start{
-    align-items: flex-start;                
+.grow_1 {
+    flex-grow: 1;
 }
-.flex-and{
-    align-items: flex-end;                
+.basis_auto {
+    flex-basis: auto;
 }
-.center{
-    align-items: center;                
+.basis_100 {
+    flex-basis: 100px;
 }
-.baseline{
-    align-items: baseline;                
+.basis_125 {
+    flex-basis: 125px;
 }
-.container .fonte-1{
-    font-size: 0.6em;                
+.largura {
+    width: 80px;
 }
-.container .fonte-2{
-    font: size 0.6em;                 
-}
-.container .fonte-3{
-    font-size: 0.8em;                
-}
-
 .container div {
     background: #028082;     
     margin: 8px 4px;
     height: 80px;
-    width: 80px;
     font-size: 1em;
     color: #fff;
     /* as proriedades a partir daqui alinham o texto no centro */
@@ -46,10 +37,11 @@
     align-items: center;
 }
 h4 {
-    margin: 20px 0 0 20px;    
+    margin: 20px 0 0 20px;
+    padding: 0 6%;    
     font-family: sans-serif;    
     font-weight: normal;
     font-size: 1em;
     color: #3b3b3b;
     text-align: center;
-}  
+}
