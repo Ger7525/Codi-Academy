@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;                  
+}
+body{
+     background-image: url(img/netflix-bg.jpg); 
+     color: white;              
+}
+header{
+     
+                
+}
+.logo-left{
+     margin: 30px;
+     position: relative;
+     top: 0;
+
+}
+.logo-rigth{
+     display: flex;
+      margin: 0 20px 0 0;
+}
+.logo-rigth img{
+     width: 100px;
+}
+main{
+     margin: 300px auto;
+     width: 80%;
+}
